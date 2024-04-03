@@ -193,3 +193,4 @@ def get_age_group(age):
 
 if __name__=="__main__":
     app.run(host="0.0.0.0")
+    app.config['PREFERRED_URL_SCHEME'] = 'https'
